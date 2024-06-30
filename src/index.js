@@ -18,6 +18,9 @@ const routes = {
 
   // staging
   "docker-staging.libcuda.so": dockerHub,
+
+  "d-hub.abbt.xyz": dockerHub,
+  "cloudflare-docker-proxy.nusky.workers.dev": dockerHub,
 };
 
 function routeByHosts(host) {
